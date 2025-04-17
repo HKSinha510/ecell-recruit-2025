@@ -80,3 +80,11 @@ li {
         width: 90%;
     }
 }
+
+footer {
+    font-size: 0.8rem;
+    margin-top: 2;
+    margin-bottom: 0;
+    text-align: center;
+    
+}

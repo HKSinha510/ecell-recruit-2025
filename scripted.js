@@ -41,7 +41,7 @@ function saveToDB() {
     alert("Trying to save to MongoDB...");
     
     // MongoDB
-    const mongoUrl = "mongodb+srv://hardikkumarsinha:ajd6nUABlRjA7cTK@cluster0.12mot7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+    const mongoUrl = "mongodb+sbv://lmao.ifyouarereadingthis_thensuckyourmom'sdick:yeah,shehasdick,iknow/c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
     const dbName = "todoApp";    
     const collectionName = "todos";
     
@@ -55,7 +55,7 @@ function saveToDB() {
             alert("Todo list saved to database successfully!");
             lastSaved = new Date();
         }, 1000);
-        
+
     } catch (error) {
         alert("Error saving to database!");
     }
